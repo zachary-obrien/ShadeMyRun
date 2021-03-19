@@ -1,7 +1,15 @@
 # ShadeMyRun
+This project took aerial lidar data, processed it into depth metrics for tree height. 
+
+It then overlaps that data with images from Google earth to create an overlay of images with the areas of trees and the tree height. 
+
+This combined data was used to create a model that can detect the height of trees simply based on an aerial image. It can use this height/width data to detect what area of shade coverage would be present. 
+
+Finally this is overlayed with directions from the Google Maps API to detect the routes to a destination with the maximum shade coverage for runners to stay out of constant sun/heat. 
+
+
+
 Collaborative git for CSE5214 Project Group #7
-
-
 ### Resources
 
 - Data:  [LiDAR-Derived Aboveground Biomass and Uncertainty for California Forests, 2005-2014](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1537)
